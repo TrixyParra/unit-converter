@@ -7,9 +7,39 @@
     <title>Unit Converter</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/main.js"></script>
-    
+
 </head>
 <body>
+
+    <div class="container">
+        <div class="input-section">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            
+            <input type="text" id="input-el">
+
+            <button id="convert-btn">Convert</button>
+        </div>
+        <div class="results-section">
+            <div id="length-section">
+                <h2>Length (Meters/Feet)</h2>
+                <p id="length-results">
+                    <span>|</span>
+                </p>
+            </div>
+            <div id="volume-section">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-results">
+                    <span>|</span>
+                </p>
+            </div>
+            <div id="mass-section">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-results">
+                    <span>|</span>
+                </p>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
