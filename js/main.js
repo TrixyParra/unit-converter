@@ -10,4 +10,12 @@ convertBtn.addEventListener("click", function() {
     const feetToMeters = inputEl.value * 0.305
 
     lengthResults.innerHTML = `${inputEl.value} meters = ${metersToFeet.toFixed(3)} feet <span>|</span> ${inputEl.value} feet = ${feetToMeters.toFixed(3)} meters` 
+
+    // * Volume Section 
+    const litersToGallons = inputEl.value * 0.264 
+    const gallonsToLiters = inputEl.value * 3.785 
+
+    volumeResults.innerHTML = `${inputEl.value} liters = ${litersToGallons.toFixed(3)} <span>|</span> ${inputEl.value} gallons = ${gallonsToLiters.toFixed(3)} liters` 
+
+    
 })
