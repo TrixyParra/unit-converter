@@ -17,5 +17,9 @@ convertBtn.addEventListener("click", function() {
 
     volumeResults.innerHTML = `${inputEl.value} liters = ${litersToGallons.toFixed(3)} <span>|</span> ${inputEl.value} gallons = ${gallonsToLiters.toFixed(3)} liters` 
 
-    
+    // * Mass Section 
+    const kilogramsToPounds = inputEl.value * 2.205 
+    const poundsToKilograms = inputEl.value * 0.454 
+
+    massResults.innerHTML = `${inputEl.value} kilograms = ${kilogramsToPounds.toFixed(3)} pounds <span>|</span> ${inputEl.value} pounds = ${poundsToKilograms.toFixed(3)} kilograms` 
 })
