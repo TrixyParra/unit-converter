@@ -63,3 +63,9 @@ span {
     font-weight: bold; 
     font-size: 40px; 
 } 
+
+footer {
+    color: lavender; 
+    text-align: center; 
+    padding: 5px; 
+} 
