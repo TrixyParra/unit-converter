@@ -9,17 +9,17 @@ convertBtn.addEventListener("click", function() {
     const metersToFeet = inputEl.value * 3.281 
     const feetToMeters = inputEl.value * 0.305
 
-    lengthResults.innerHTML = `${inputEl.value} meters = ${metersToFeet.toFixed(3)} feet <span>|</span> ${inputEl.value} feet = ${feetToMeters.toFixed(3)} meters` 
+    lengthResults.innerHTML = `${inputEl.value} m = ${metersToFeet.toFixed(3)} ft <span>|</span> ${inputEl.value} ft = ${feetToMeters.toFixed(3)} m` 
 
     // * Volume Section 
     const litersToGallons = inputEl.value * 0.264 
     const gallonsToLiters = inputEl.value * 3.785 
 
-    volumeResults.innerHTML = `${inputEl.value} liters = ${litersToGallons.toFixed(3)} <span>|</span> ${inputEl.value} gallons = ${gallonsToLiters.toFixed(3)} liters` 
+    volumeResults.innerHTML = `${inputEl.value} L = ${litersToGallons.toFixed(3)} gal <span>|</span> ${inputEl.value} gal = ${gallonsToLiters.toFixed(3)} L` 
 
     // * Mass Section 
     const kilogramsToPounds = inputEl.value * 2.205 
     const poundsToKilograms = inputEl.value * 0.454 
 
-    massResults.innerHTML = `${inputEl.value} kilograms = ${kilogramsToPounds.toFixed(3)} pounds <span>|</span> ${inputEl.value} pounds = ${poundsToKilograms.toFixed(3)} kilograms` 
+    massResults.innerHTML = `${inputEl.value} kg = ${kilogramsToPounds.toFixed(3)} lbs <span>|</span> ${inputEl.value} lbs = ${poundsToKilograms.toFixed(3)} kg` 
 })
